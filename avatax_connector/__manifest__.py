@@ -1,0 +1,36 @@
+{
+    "name": "Avalara Avatax Connector (DEPRECATED)",
+    "version": "13.0.3.0.0",
+    "author": "Fabrice Henrion, Sodexis"
+              ", Open Source Integrators",
+    "summary": "Sales tax Calculation",
+    "license": "Other proprietary",
+    "category": "Generic Modules/Accounting",
+    "depends": [
+        'account',
+        'sale',
+        'stock',
+        'base_geolocalize',
+    ],
+    "data": [
+        #"security/avalara_salestax_security.xml",
+        #"security/ir.model.access.csv",
+        #"wizard/avalara_salestax_ping_view.xml",
+        #"wizard/avalara_salestax_address_validate_view.xml",
+        #"views/avalara_salestax_view.xml",
+        #"data/avalara_salestax_data.xml",
+        #"views/partner_view.xml",
+        #"views/product_view.xml",
+        #"views/account_move_action.xml",
+        #"views/account_move_view.xml",
+        #"views/sale_order_view.xml",
+        #"views/sale_order_action.xml",
+        #"views/account_tax_view.xml",
+        #"report/sale_order_templates.xml",
+    ],
+    'images': [
+        #'static/description/avatax_icon.png',
+    ],
+    'installable': True,
+    'application': False,
+}
